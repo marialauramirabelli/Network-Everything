@@ -5,6 +5,8 @@
 
   created 3 February 2019
   by Michael Shiloh
+  
+  edited by Ingie Baho and María Laura Mirabelli
 */
 
 #include <SPI.h>
