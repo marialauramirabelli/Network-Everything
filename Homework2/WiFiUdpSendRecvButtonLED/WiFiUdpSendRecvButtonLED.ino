@@ -145,9 +145,6 @@ void receiveLEDStates(){
       digitalWrite(YELLOW_LED, packetBuffer[2]);
     }
   }
-  else{
-    Serial.println("No packet received.");
-  }
 }
 
 void loop() {
