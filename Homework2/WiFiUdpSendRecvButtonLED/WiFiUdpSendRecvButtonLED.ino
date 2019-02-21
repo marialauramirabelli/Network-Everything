@@ -145,7 +145,7 @@ void receiveLEDStates(){
 
 void loop() {
   // IP address of the receiving device
-  IPAddress receivingDeviceAddress(192, 168, 1, 14);
+  IPAddress receivingDeviceAddress(192, 168, 1, 15);
   unsigned int receivingDevicePort = 2390;
   //other code must have 5000 for this instead
 
