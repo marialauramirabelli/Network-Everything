@@ -9,20 +9,20 @@ char ssid[] = SECRET_SSID;        // your network SSID (name)
 char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
-unsigned int localPort = 5000;      // local port to listen on
+unsigned int localPort = 2390;      // local port to listen on
 //other code must have 2390 for this instead
 
 char packetBuffer[255]; //buffer to hold incoming packet
 
 WiFiUDP Udp;
 
-const int RED_LED = 5;
-const int GREEN_LED = 4;
-const int YELLOW_LED = 3;
+const int RED_LED = 0;
+const int GREEN_LED = 1;
+const int YELLOW_LED = 2;
 
-const int RED_BUTTON = 2;
-const int GREEN_BUTTON = 1;
-const int YELLOW_BUTTON = 0;
+const int RED_BUTTON = 5;
+const int GREEN_BUTTON = 4;
+const int YELLOW_BUTTON = 3;
 
 // remember the button state so we only send when the state changes
 boolean redButtonState;
@@ -98,24 +98,20 @@ void sendButtonStates(IPAddress address, unsigned int port){
 
     Udp.write(redButtonState);
     if(redButtonState != lastRedButtonState){
-      Serial.print("red button state changed; sending new state: ");
-      Serial.println(redButtonState);
       lastRedButtonState = redButtonState;
     }
  
     Udp.write(greenButtonState);
     if(greenButtonState != lastGreenButtonState){
-      Serial.print("green button state changed; sending new state: ");
-      Serial.println(greenButtonState);
       lastGreenButtonState = greenButtonState;
     }
 
     Udp.write(yellowButtonState);
     if(yellowButtonState != lastYellowButtonState){
-      Serial.print("yellow button state changed; sending new state: ");
-      Serial.println(yellowButtonState);
       lastYellowButtonState = yellowButtonState;
     }
+    
+    printCurrentButtonState(redButtonState, greenButtonState, yellowButtonState);
      
     Udp.endPacket();
   }
@@ -149,8 +145,8 @@ void receiveLEDStates(){
 
 void loop() {
   // IP address of the receiving device
-  IPAddress receivingDeviceAddress(192, 168, 1, 15);
-  unsigned int receivingDevicePort = 2390;
+  IPAddress receivingDeviceAddress(192, 168, 1, 14);
+  unsigned int receivingDevicePort = 5000;
   //other code must have 5000 for this instead
 
   sendButtonStates(receivingDeviceAddress, receivingDevicePort);
@@ -174,3 +170,12 @@ void printWiFiStatus() {
   Serial.print(rssi);
   Serial.println(" dBm");
 }
+void printCurrentButtonState(boolean currentRedButtonState, boolean currentGreenButtonState, boolean currentYellowButtonState){
+  Serial.print("red = ");
+    Serial.print(currentRedButtonState);
+    Serial.print("\tgreen = ");
+    Serial.print(currentGreenButtonState);
+    Serial.print("\tyellow = ");
+    Serial.print(currentYellowButtonState);
+    Serial.println();
+  }
