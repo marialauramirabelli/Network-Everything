@@ -9,7 +9,7 @@ char ssid[] = SECRET_SSID;        // your network SSID (name)
 char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as key for WEP)
 int keyIndex = 0;            // your network key Index number (needed only for WEP)
 
-unsigned int localPort = 2390;      // local port to listen on
+unsigned int localPort = 5000;      // local port to listen on
 //other code must have 2390 for this instead
 
 char packetBuffer[255]; //buffer to hold incoming packet
@@ -146,7 +146,7 @@ void receiveLEDStates(){
 void loop() {
   // IP address of the receiving device
   IPAddress receivingDeviceAddress(192, 168, 1, 14);
-  unsigned int receivingDevicePort = 5000;
+  unsigned int receivingDevicePort = 2390;
   //other code must have 5000 for this instead
 
   sendButtonStates(receivingDeviceAddress, receivingDevicePort);
