@@ -7,7 +7,7 @@ Three types of components are connected to the Arduino MKR 1010:
 - A motor with attached fan blades (hopefully the voltage is not a problem?)
 - Three LEDs to mimic a stoplight (they will indicate ranges of heat; just an extra feature, not really necessary)  
   
-![stand](/Connected-Device/Images/stang.jpg)    
+![stand](/Connected-Device/Images/stand.jpg)    
   
 The Arduino code communicates with Node.js code that has set up a server.
 - The Arduino code interprets temperature readings and sends a "status" to Node.js (something along the lines of "cold", "mild", "hot"); this status is also shown by turning on one of the LEDs (green, yellow, and red respectively).
