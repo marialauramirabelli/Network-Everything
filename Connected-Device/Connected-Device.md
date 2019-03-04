@@ -1,4 +1,4 @@
-## Connected Device  
+## Connected Device (First Idea)
 ### A laptop stand with a built-in fan
 (An artifact that already exists but not as an IoT device, to my knowledge)
 
