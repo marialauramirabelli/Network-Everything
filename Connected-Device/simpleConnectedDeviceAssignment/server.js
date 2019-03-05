@@ -16,7 +16,7 @@ server.listen(PORT, () => {
 
 //FUNCTION TO SEND EMAIL - I'm assuming it needs to be written on this file
 //Access to necessary info from JSON file? And board (for humidity readings)
-//Leaves a record on JSON file every time it sends an email?
+//Leaves a record on JSON or txt file every time it sends an email?
 
 
 
