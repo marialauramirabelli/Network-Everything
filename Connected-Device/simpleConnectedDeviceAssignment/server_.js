@@ -3,7 +3,7 @@ const fs = require('fs');
 const express = require('express'); // web server application
 const app = express();        // instantiate express server
 const server = http.Server(app);  // connects http library to server
-const hostname = "127.0.0.1";
+const hostname = "192.168.1.22";
 
 
 const PORT=8083;
