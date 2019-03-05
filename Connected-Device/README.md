@@ -11,4 +11,6 @@ I imagine the device as a box (probably wooden) of which the upper part is a spa
   
 ![plan](/Connected-Device/Images/succulentPlan.jpg)  
   
-The idea doesn't really incorporate any actuators, so maybe the device can have a light on the box that turns on or a speaker that plays a sound (if I wanted to be a bit more aggressive) when the succulent reaches the lowest humidity level "allowed". Or, which is more interesting but I'm not sure how to carry it out, I can try to find a way in which water can be automatically poured into the soil, so that the email serves as a reminder to replenish the water supply (stored somewhere in the box), rather than to water the succulent itself.
+The idea doesn't really incorporate any actuators, so maybe the device can have a light on the box that turns on or a speaker that plays a sound (if I wanted to be a bit more aggressive) when the succulent reaches the lowest humidity level "allowed". Or, which is more interesting but I'm not sure how to carry it out, I can try to find a way in which water can be automatically poured into the soil, so that the email serves as a reminder to replenish the water supply (stored somewhere in the box), rather than to water the succulent itself.  
+  
+Succulents usually need to be watered once a week, which is too long for prototyping and testing the device (and to show it to others), so I'd have to come up with a way to simulate the absorption of water in a much shorter time span.
