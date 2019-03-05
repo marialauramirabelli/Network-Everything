@@ -3,4 +3,4 @@
 1. This is the first thing  
 2. Second thing  
 3. Third  
-7. Not the fourth
+7. Not the fourth (it's a seven)
