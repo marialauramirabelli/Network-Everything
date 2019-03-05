@@ -77,7 +77,7 @@ void loop() {
   int packetSize = Udp.parsePacket();
   if (packetSize)
   {
-    if (packetSize != 3){
+    if (packetSize != 1){
       Serial.println("Incorrect packet size received.");
     }
     else{
