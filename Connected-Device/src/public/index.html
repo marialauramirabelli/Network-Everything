@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Succulent Moisture Monitor</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="client.js"></script>
+    </head>
+    <body>
+        <h1>Succulent Moisture Monitor</h1>
+        <br>
+        <h2>New User?</h2>
+        <p>Enter your name and your email address below:</p>
+        <br>
+        <form id="form" display: none>
+          Your name:<br>
+          <input type="text" id="namePerson"><br>
+          Email address:<br>
+          <input type="text" id="email"><br><br>
+          <input type="submit" value="Submit" onclick="saveData()">
+          <br>
+          <p id="error"></p>
+        </form>
+        <br>
+        <h2>Moisture Reading</h2>
+        <button type="button" id="show" onclick="showMoisture()">Show</button>
+        <p id="moisture"></p>
+    </body>
+</html>
