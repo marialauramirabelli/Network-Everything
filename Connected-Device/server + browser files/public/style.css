@@ -1,0 +1,184 @@
+html, body{
+    height: 100%;
+}
+body {
+  background-image: url("bg.png");
+  background-color: #cccccc;
+}
+#title {
+  margin: auto;
+  height: 25%;
+  width: 100%;
+  padding-top: 1%;
+  background-color: white;
+  border-bottom: 20px solid MediumSpringGreen;
+}
+#title1{
+  text-align: center;
+  color: DarkSlateGray;
+  font-family: 'Sofia', cursive;
+  font-size: 380%;
+  font-weight: bold;
+}
+#title2{
+  text-align: center;
+  color: DarkCyan;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+}
+#moistureReading{
+  float:left; 
+  display: inline-block;
+  height: 60%;
+  width: 32%;
+  background-color: white;
+  border-bottom: 20px solid DarkCyan;
+}
+#about{
+  margin-left: 2%;
+  display: inline-block;
+  height: 60%;
+  width: 32%;
+  background-color: white;
+  border-bottom: 20px solid DarkCyan;
+}
+#newUser{
+  float:right; 
+  display: inline-block;
+  height: 60%;
+  width: 32%;
+  background-color: white;
+  border-bottom: 20px solid DarkCyan;
+}
+#title3{
+  opacity: 0.9;
+  text-align: center;
+  color: DarkSlateGray;
+  font-family: 'Sofia', cursive;
+  font-size: 220%;
+  font-weight: bold;
+}
+#title6{
+  opacity: 0.9;
+  text-align: center;
+  color: DarkSlateGray;
+  font-family: 'Sofia', cursive;
+  font-size: 220%;
+  font-weight: bold;
+}
+#title9{
+  opacity: 0.9;
+  text-align: center;
+  color: DarkSlateGray;
+  font-family: 'Sofia', cursive;
+  font-size: 220%;
+  font-weight: bold;
+}
+#title4, #title7{
+  text-align: center;
+  color: DarkSlateGray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+}
+#form{
+  float: left;
+  display: inline;
+  width: 90%;
+  margin-left: 7%;
+  text-align: left;
+  color: DarkSlateGray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+}
+#learnButton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: DarkSlateGray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  background-color: MediumSpringGreen;
+}
+#submitButton{
+  float:right;
+  display:inline;
+  margin-right: 7%;
+  color: DarkSlateGray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: MediumSpringGreen;
+}
+#title5{
+  text-align: center;
+  color: DarkCyan;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  padding-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#error{
+  color: DarkCyan;
+}
+#title8{
+  text-align: center;
+  color: DarkSlateGray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 5%;
+}
+#title10{
+  color: DarkSlateGray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 10%;
+}
+#spectrum1{
+  float:left; 
+  display:inline;
+  height: 10%;
+  width: 50%;
+  background-color: hsl(230, 100%, 50%)
+}
+#spectrum2{
+  float:left; 
+  display:inline;
+  height: 10%;
+  width: 50%;
+  background-color: LightGray;
+}
+#succ{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24%;
+}
+#mail{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  padding-bottom: 5%;
+}
+#moisture{
+  padding-top: 10%;
+  text-align: center;
+  color: DarkSlateGray;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+}

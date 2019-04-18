@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8"/>
+        <title>Succulent Moisture Monitor</title>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="client.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Sofia" rel="stylesheet">
+    </head>
+    <body>
+        <div id="title">
+        	<div id="title1">Succulent Moisture Monitor</div>
+        	<div id="title2">Pointing Accusatory Fingers At Succulent Murderers Since 2019</div>
+        </div>
+        <br>
+        <div id="moistureReading">
+        	<div id="title3">Moisture Percentage</div>
+        	<div id="title4">This is your succulent's current moisture level</div>
+        	<div id="title5">The water container better be at full capacity!</div>
+        	<div id="spectrum1"></div>
+        	<div id="spectrum2"></div>
+        	<p id="moisture"></p>
+        	<img id="succ" src="succ1.png">
+        </div>
+        <div id="about">
+        	<div id="title9">About</div>
+        	<div id="title10">All house plants deserve to be watered, yes.<br>Any house plant can dry up and wilt, it's true.<br>But we're primarily concerned with succulents.<br><br>These resilient plants have become very popular lately because of the minimal care they require... <br> But so many negligent owners become murderers!<br>Succulents only require water once a week, PEOPLE!<br><br>It saddens us to see such brave plants fade under human care. Thus why we've created this wonderfully useful IoT device: the Succulent Moisture Monitor! 
+        	</div>
+        	<!-- <input type="button" value="Learn more" id="learnButton" onclick="location.href='about.html'"> -->
+        </div>
+        <div id="newUser">
+        	<div id="title6">Become a Caretaker</div>
+        	
+        	<div id="title8">Join our ranks to save a single succulent from minimally-risky dehydration!</div>
+        	<img id="mail" src="email.jpg">
+        	<form id="form" display: none>
+	          Name:<br>
+	          <input type="text" id="namePerson"><br><br>
+	          Email address:<br>
+	          <input type="text" id="email">
+	          <input type="button" value="Submit" id="submitButton" onclick="saveData()">
+	          <br>
+	          <p id="error"></p>
+	          <!--<input type="button" value="Email" onclick="sendEmail()">-->
+	          <!--<input type="button" value="Water" onclick="water()">-->
+	        </form>
+        </div>
+    </body>
+</html>
