@@ -32,7 +32,7 @@ var transporter = nodemailer.createTransport({
  service: 'gmail',
  auth: {
         user: smmdEmail,
-        pass: 'SMMDnetworkeverything'
+        pass: ********
     }
 });
 
