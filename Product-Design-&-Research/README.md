@@ -1,6 +1,6 @@
 # Product Design and Research
 
-### Motion detection and tracking for elders who live on their own (Ju Hee & María)
+### Motion detection and tracking for elders who live on their own
   
   
 **Product Definition**  
