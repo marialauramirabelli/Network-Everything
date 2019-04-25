@@ -45,8 +45,9 @@ How would you approach making? What would you make? What method would you use?
   
 **Prototype**
  
-![img1]()
-![img2]()
-![img3]()
+![img1](https://github.com/marialauramirabelli/Network-Everything/blob/master/Product-Design-%26-Research/Images/device.jpg)  
+![img2](https://github.com/marialauramirabelli/Network-Everything/blob/master/Product-Design-%26-Research/Images/app.jpg)  
+![img3](https://github.com/marialauramirabelli/Network-Everything/blob/master/Product-Design-%26-Research/Images/app2.jpg)  
+![img4](https://github.com/marialauramirabelli/Network-Everything/blob/master/Product-Design-%26-Research/Images/all.jpg)
 
 
