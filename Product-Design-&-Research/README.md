@@ -6,7 +6,8 @@
 **Product Definition**  
   
 What is the value proposition? What problem does it solve?  
-* In many societies, elders are left to live on their own once their children have grown up and settled with their own families in other cities/countries. When this happens, the elderly often have no supervision and no way of alerting others when an emergency occurs.  
+* In many societies, elders are left to live on their own once their children have grown up and settled with their own families in other cities/countries. When this happens, the elderly often have no supervision and no way of alerting others when an emergency occurs. 
+* Specifically, in the case of Alzheimer’s, patients are more vulnerable because they can’t rely on their own knowledge of their environment.
   
 What is the target market?  
 * Elderly people who live on their own.  
