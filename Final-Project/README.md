@@ -15,17 +15,27 @@
 * Microphone (2)
 * Speakers/headphones (2)
   
+  
 ## Schematics
   
 * Forum: https://www.raspberrypi.org/forums/viewtopic.php?t=177225  
 * Pigpio: https://github.com/fivdi/pigpio  
 * Circuit: http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/ 
   
+*Image below from codelectron.com*
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic.png)  
-*Image from codelectron.com*
   
-  
+*Schematic* 
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic1.png)  
   
-# Electronics
-
+## Electronics
+  
+## Code
+  
+* [Server](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/server.js)
+* [Client](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/client.js)
+* [Index](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/index.html)
+  
+## Process
+  
+## Difficulties
