@@ -1,0 +1,43 @@
+html, body{
+  height: 100%;
+}
+body {
+  font-family: 'Bowlby One', cursive;
+  background-color: #000000;
+}
+.container{
+  position: relative;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.text{
+  font-size:35px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:#ffffff;
+  line-height:1;
+}
+#lineGIF{
+  max-width:30%;
+  height:auto;
+  margin-bottom:50px;
+}
+#line1{
+  font-size: 20px;
+}
+#line2{
+  font-size: 20px;
+}
+#line3{
+  font-size: 20px;
+}
+#line4{
+  font-size: 20px;
+}
