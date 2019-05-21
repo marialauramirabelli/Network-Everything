@@ -4,6 +4,14 @@
   
 ## Images
   
+*Station 1*  
+  
+![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station1.jpg)
+  
+*Station 2*  
+  
+![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station2.jpg)
+  
 ## System Diagram (Hardware and Software)
   
 ## Schematics
