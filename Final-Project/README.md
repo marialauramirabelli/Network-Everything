@@ -6,16 +6,6 @@
   
 ## System Diagram (Hardware and Software)
   
-## Important Parts  
-  
-* Raspberry Pi (2)
-* SD card (2)
-* Ultrasonic range sensor (2)
-* Monitor (2)
-* Microphone (2)
-* Speakers/headphones (2)
-  
-  
 ## Schematics
   
 * Forum: https://www.raspberrypi.org/forums/viewtopic.php?t=177225  
@@ -29,7 +19,18 @@
 *Schematic* 
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic1.png)  
   
+## Important Parts  
+  
+* Raspberry Pi (2)
+* SD card (2)
+* Ultrasonic range sensor (2)
+* Monitor (2)
+* Microphone (2)
+* Speakers/headphones (2)
+  
 ## Electronics
+  
+![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/electronics.jpg)
   
 ## Code
   
