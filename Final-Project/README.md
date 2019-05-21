@@ -2,7 +2,7 @@
   
 ## Concept and Description  
   
-## Images
+## Images and Videos
   
 *Station 1*  
   
@@ -15,12 +15,8 @@
 ## System Diagram (Hardware and Software)
   
 ## Schematics
-  
-* Forum: https://www.raspberrypi.org/forums/viewtopic.php?t=177225  
-* Pigpio: https://github.com/fivdi/pigpio  
-* Circuit: http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/ 
-  
-*Image from codelectron.com*  
+    
+*Image from [codelectron.com](http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/)*  
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic.png)  
   
@@ -47,5 +43,10 @@
 * [Index](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/index.html)
   
 ## Process
+
+  
+* Forum: https://www.raspberrypi.org/forums/viewtopic.php?t=177225  
+* Pigpio: https://github.com/fivdi/pigpio  
+* Circuit: http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/ 
   
 ## Difficulties
