@@ -22,7 +22,8 @@
 * Pigpio: https://github.com/fivdi/pigpio  
 * Circuit: http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/ 
   
-*Image below from codelectron.com*
+*Image from codelectron.com*  
+  
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic.png)  
   
 *Schematic* 
