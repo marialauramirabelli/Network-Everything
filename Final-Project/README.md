@@ -86,10 +86,4 @@ This said, I must point out that it took me some time to figure out how the conn
   
 In terms of audio streaming and receiving, it was recommended to me to take a look at [EasyRTC](https://easyrtc.com/), an "open source WebRTC toolkit" that offers a [demo to stream audio](https://demo.easyrtc.com/demos/demo_audio_only.html) using a node.js server. I worked to integrate the functionalities of the demo into my own server program, but ran into a series of problems when trying to get it to work. After further research into what might have been causing the issue, it seemed to be a relatively common situation among people trying out the EasyRTC Audio Only demo, and the solution some had found was somewhat complicated ot understand for me. I tried to find alternative ways of streaming audio between RPis, and stumbled upon yet another [simple solution by Ilyass Tabiai](http://iltabiai.github.io/2018/03/17/rpi-stream.html). It requires using the VLC media player software on the RPi to connect microphone and speaker over the same network the servers are connected. The method works quite well, with the only major downside being that there is a bit of a lag when the audio is transmitted (a couple of seconds), but it my tests it was usually audible and clear.  
   
-
-  
-* Easy RTC
-  
-
-
-* Ethernet
+Some big problems that I faced with this project had to do with the setup on the day it was meant to be exhibited; I had issues with connecting the RPis to a network, with installing node packages, with displaying graphics with a monitor, etc. Because the system has so many components, small setbacks in any of them implied the failure of the system. It was difficult to finally get it all to work together, despite the technical aspects of the project being relatively simple.
