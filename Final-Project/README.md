@@ -26,7 +26,7 @@ A microphone is found in front of the monitor, which the user can approach to sp
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station2.jpg)  
   
-*Video*: https://youtu.be/JEBjbSguLDI  
+*Video (needs high-ish volume!)*: https://youtu.be/JEBjbSguLDI  
   
 [![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/video.JPG)](https://youtu.be/JEBjbSguLDI)
   
