@@ -2,6 +2,14 @@
   
 ## Concept and Description  
   
+New York City's Grand Central Terminal is one of the city's most popular locations, providing transportation and other services to travellers but also representing the history of the city for tourists. One of the station's most popular feature (as described by the [official website](https://www.grandcentralterminal.com/what-to-see/)) is a whispering gallery between the arches "next to the Grand Central Oyster Bar & Restaurant."  
+  
+[A whispering gallery](http://mentalfloss.com/article/93018/7-whispering-galleries-around-world-you-can-visit) is an acoustical phenomenon wherein "certain curved spaces" allow people to "stand facing a sloping surface" in the structure and whisper to create a particular effect: if someone else is also standing facing a sloping surface in the structure, they will hear the first person's whisper "as clearly as if [they] were standing next to them."  
+  
+Whispering galleries are fascinating because they allow clear communication at a distance without any specialized devices (designed to serve this specific purpose). They enable, even if only within a restricted space, communication that we currently associated to technologies ranging from walkie-talkies to teleconferencing. But precisely because the phenomenon is dependent on certain architectural and acoustic features, and not on portable objects or a network that can be set up, the experience is not easily accessible. Having Raspberry Pis at my disposal and thinking about networks and their uses in our everyday lives, as well as considering the wide range of applicatons that connected devices have been given, I became interested in trying to replicate the experience of the Grand Central Terminal whispering gallery with hardware and software designed to clearly and easily transmit audio, and by creating a set up that is reminiscent of the arches in the gallery. Would this lead to an interesting experience for users? Or would it be as common as using a telephone?  
+  
+My project is composed of two stations, 
+  
 ## Images and Videos
   
 *Station 1*  
@@ -27,7 +35,6 @@ The image below shows how to connect the ultrasonic range sensor to a RPi (4 GPI
 *Schematic*  
   
 The only change in the schematic for my own version of the circuit is the replacement of the 2K Ohms resistor for a 2.2K Ohms resistor (given I couldn't find any 2K ones). The ciruit appeared to work seamlessly despite the change.  
-  
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic1.jpg)  
   
 ## Important Parts  
