@@ -70,16 +70,14 @@ In the image above, where both station can be seen and their components are indi
 * [Client](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/client.js)
 * [Index](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/index.html)
   
-## Process
+## Process and Difficulties
   
 * Easy RTC
   
 * Forum: https://www.raspberrypi.org/forums/viewtopic.php?t=177225  
 * Pigpio: https://github.com/fivdi/pigpio  
 * Circuit: http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/ 
-  
-## Difficulties
-  
+
 * Finding right picture
 * URS circuit
 * Ethernet
