@@ -30,7 +30,11 @@ A microphone is found in front of the monitor, which the user can approach to sp
   
 The video above shows how the project works. In it, the two stations are closer to each other than they ideally would be; Station 2 required ethernet connection (as the RPi was having issues connecting to WiFi), thus why it needed to be in the center of the room. If this hadn't been the case, it would've been located in the opposite end of the room. Because of the stations' proximity, you can hear Yufei and I talking to each other not only through the microphones and speakers. Another shortcoming that the video shows is the delay in the audio streaming; when a user says something through the microphone, it takes a few seconds to reach the speaker in the opposite station. This will be further discussed later on in the documentation.
   
-## System Diagram (Hardware and Software)
+## System Diagram (Hardware and Software)  
+  
+![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/diagram.jpg)  
+  
+The diagram above shows the system where Station 1 is the server and Station 2 is the client; in reality, the inverse is occurring simulatenously (Station 2 is also a server, and Station 1 is also a client; Station 2 also streams audio, and Station 1 also receives audio).
   
 ## Schematics
   
