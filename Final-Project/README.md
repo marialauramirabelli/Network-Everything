@@ -9,6 +9,7 @@
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station1.jpg)
   
 *Station 2*  
+*(In the monitor, the size of the text on the screen looks odd because of the monitor's dimensions; the style.css file for the page is the same in Station 2 and in Station 1 - see above -, but only the latter looks as it should)*
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station2.jpg)
   
