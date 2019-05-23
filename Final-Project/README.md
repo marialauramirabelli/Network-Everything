@@ -8,11 +8,13 @@ New York City's Grand Central Terminal is one of the city's most popular locatio
   
 Whispering galleries are fascinating because they allow clear communication at a distance without any specialized devices (designed to serve this specific purpose). They enable, even if only within a restricted space, communication that we currently associated to technologies ranging from walkie-talkies to teleconferencing. But precisely because the phenomenon is dependent on certain architectural and acoustic features, and not on portable objects or a network that can be set up, the experience is not easily accessible. Having Raspberry Pis at my disposal and thinking about networks and their uses in our everyday lives, as well as considering the wide range of applications that connected devices have been given, I became interested in trying to replicate the experience of the Grand Central Terminal whispering gallery with hardware and software designed to clearly and easily transmit audio, and by creating a set up that is reminiscent of the arches in the gallery. Would this lead to an interesting experience for users? Or would it feel as commonplace as using a telephone?  
   
-My project is composed of two stations with a monitor each, ideally placed quite far away from each other in a room, and in such a way that people standing in fron of the monitors can't see each other. Each monitor shows the following image:  
+My project is composed of two stations with a monitor each, ideally placed quite far away from each other in a room, and in such a way that people standing in fron of the monitors can't see each other. Each monitor shows the following image of one of the arch pillars in Grand Central Terminal's whispering gallery:  
   
-![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/corner1.jpg)
+![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/corner1.jpg)  
   
-### Images and Videos
+A microphone is found in front of the monitor, which the user can approach to speak directly into. The audio captured by the microphone is streamed to the opposite station, such that there is open communication between both stations. This system is set up with Raspberry Pis, and in order to take further advantage of the RPis capabilities, an ultrasonic range sensor was added to each station so that the users can get some indication of the presence or lack thereof of another person in the opposite station. If nobody is standing in front of the opposite station's microphone, the monitor shows a "loading" animation, showing that it's waiting for someone else to appear. Once another person approaches the opposite microphone, the animation disappears and the users are encouraged to speak to each other.
+  
+### Images and Video
   
 *Station 1*  
   
@@ -22,7 +24,11 @@ My project is composed of two stations with a monitor each, ideally placed quite
   
 (In the monitor, the size of the text on the screen looks odd because of the monitor's dimensions; the style.css file for the page is the same in Station 2 and in Station 1 - see above -, but only the latter looks as it should.)
   
-![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station2.jpg)
+![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station2.jpg)  
+  
+*Video*: https://youtu.be/JEBjbSguLDI  
+  
+The video above shows how the project works. In it, the two stations are closer to each other than they ideally would be; Station 2 required ethernet connection (as the RPi was having issues connecting to WiFi), thus why it needed to be in the center of the room. If this hadn't been the case, it would've been located in the opposite end of the room. Because of the stations' proximity, you can hear Yufei and I talking to each other not only through the microphones and speakers. Another shortcoming that the video shows is the delay in the audio streaming; when a user says something through the microphone, it takes a few seconds to reach the speaker in the opposite station. This will be further discussed later on in the documentation.
   
 ### System Diagram (Hardware and Software)
   
