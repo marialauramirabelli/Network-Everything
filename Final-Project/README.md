@@ -12,7 +12,7 @@ My project is composed of two stations with a monitor each, ideally placed quite
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/corner1.jpg)  
   
-A microphone is found in front of the monitor, which the user can approach to speak directly into. The audio captured by the microphone is streamed to the opposite station, such that there is open communication between both stations. This system is set up with Raspberry Pis, and in order to take further advantage of the RPis capabilities, an ultrasonic range sensor was added to each station so that the users can get some indication of the presence or lack thereof of another person in the opposite station. If nobody is standing in front of the opposite station's microphone, the monitor shows a "loading" animation, showing that it's waiting for someone else to appear. Once another person approaches the opposite microphone, the animation disappears and the users are encouraged to speak to each other.
+A microphone is found in front of the monitor, which the user can approach to speak directly into. The audio captured by the microphone is streamed to the opposite station, such that there is open communication between both stations. This system is set up with Raspberry Pis, and in order to take further advantage of the RPis capabilities, an ultrasonic distance sensor was added to each station so that the users can get some indication of the presence or lack thereof of another person in the opposite station. If nobody is standing in front of the opposite station's microphone, the monitor shows a "loading" animation, showing that it's waiting for someone else to appear. Once another person approaches the opposite microphone, the animation disappears and the users are encouraged to speak to each other.
   
 ## Images and Video
   
@@ -42,7 +42,7 @@ The diagram above shows the system where Station 1 is the server and Station 2 i
   
 *Circuit*  
   
-The image below shows how to connect the ultrasonic range sensor to a RPi (4 GPIOs) with two resistors (1K and 2K Ohms). Taken from [codelectron.com](http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/).   
+The image below shows how to connect the ultrasonic distance sensor to a RPi (4 GPIOs) with two resistors (1K and 2K Ohms). Taken from [codelectron.com](http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/).   
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic.png)  
   
@@ -55,7 +55,7 @@ The only change in the schematic for my own version of the circuit is the replac
   
 * Raspberry Pi (2)
 * SD card (2)
-* Ultrasonic range sensor (2)
+* Ultrasonic distance sensor (2)
 * Monitor (2)
 * Microphone (2)
 * Speakers/headphones (2)
@@ -72,12 +72,15 @@ In the image above, where both station can be seen and their components are indi
 * [Client](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/client.js)
 * [Index](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/index.html)
   
-## Process and Difficulties
+## Process and Difficulties  
+  
+As is clear from the previous sections, both stations in this project are essentially divided into two parts: (1) distance-sensing and a dynamic website in response, and (2) audio streaming. 
+  
+To tackle the first one, my professor suggested using [ultrasonic distance sensors](https://www.sparkfun.com/products/13959), which "[include] an ultrasonic transmitter, a receiver and a control circuit" to calculate the distance between the sensor and the closest object in front of it. I needed to connect the sensor to the RPi, so that the system's server (running on the RPi) could read the distance values and use them to change an element on the website run by the server. While looking up how to do this online, I found a [RPi forum](https://www.raspberrypi.org/forums/viewtopic.php?t=177225) that indicated a simple solution: [pigpio](https://github.com/fivdi/pigpio) is a node.js package that can "enable fast GPIO, PWM, servo control, state change notification and interrupt handling on the Raspberry Pi Zero, 1, 2 or 3." The forum gave a link to [sample code](https://github.com/fivdi/pigpio#measure-distance-with-a-hc-sr04-ultrasonic-sensor) that allows the RPi to read the sensor's values.
   
 * Easy RTC
   
-* Forum: https://www.raspberrypi.org/forums/viewtopic.php?t=177225  
-* Pigpio: https://github.com/fivdi/pigpio  
+
 * Circuit: http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/ 
 
 * Finding right picture
