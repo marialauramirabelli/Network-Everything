@@ -1,6 +1,6 @@
 # Whispering Gallery  
   
-### Concept and Description  
+## Concept and Description  
   
 New York City's Grand Central Terminal is one of the city's most popular locations, providing transportation and other services to travellers but also representing the history of the city for tourists. One of the station's most popular feature (as described by the [official website](https://www.grandcentralterminal.com/what-to-see/)) is a whispering gallery between the arches "next to the Grand Central Oyster Bar & Restaurant."  
   
@@ -14,7 +14,7 @@ My project is composed of two stations with a monitor each, ideally placed quite
   
 A microphone is found in front of the monitor, which the user can approach to speak directly into. The audio captured by the microphone is streamed to the opposite station, such that there is open communication between both stations. This system is set up with Raspberry Pis, and in order to take further advantage of the RPis capabilities, an ultrasonic range sensor was added to each station so that the users can get some indication of the presence or lack thereof of another person in the opposite station. If nobody is standing in front of the opposite station's microphone, the monitor shows a "loading" animation, showing that it's waiting for someone else to appear. Once another person approaches the opposite microphone, the animation disappears and the users are encouraged to speak to each other.
   
-### Images and Video
+## Images and Video
   
 *Station 1*  
   
@@ -30,9 +30,9 @@ A microphone is found in front of the monitor, which the user can approach to sp
   
 The video above shows how the project works. In it, the two stations are closer to each other than they ideally would be; Station 2 required ethernet connection (as the RPi was having issues connecting to WiFi), thus why it needed to be in the center of the room. If this hadn't been the case, it would've been located in the opposite end of the room. Because of the stations' proximity, you can hear Yufei and I talking to each other not only through the microphones and speakers. Another shortcoming that the video shows is the delay in the audio streaming; when a user says something through the microphone, it takes a few seconds to reach the speaker in the opposite station. This will be further discussed later on in the documentation.
   
-### System Diagram (Hardware and Software)
+## System Diagram (Hardware and Software)
   
-### Schematics
+## Schematics
   
 *Circuit*  
   
@@ -45,7 +45,7 @@ The image below shows how to connect the ultrasonic range sensor to a RPi (4 GPI
 The only change in the schematic for my own version of the circuit is the replacement of the 2K Ohms resistor for a 2.2K Ohms resistor (given I couldn't find any 2K ones). The ciruit appeared to work seamlessly despite the change.  
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic1.jpg)  
   
-### Important Parts  
+## Important Parts  
   
 * Raspberry Pi (2)
 * SD card (2)
@@ -54,19 +54,19 @@ The only change in the schematic for my own version of the circuit is the replac
 * Microphone (2)
 * Speakers/headphones (2)
   
-### Electronics
+## Electronics
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/electronics.jpg) 
   
 In the image above, where both station can be seen and their components are indicated, the RPis are not fully visible; connected to each of them are the monitor (HDMI), the microphone (USB A), and the speaker (3.5mm female jack). Station 2 also has an Ethernet cable that's connected to the RPi (Ethernet port).
   
-### Code
+## Code
   
 * [Server](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/server.js)
 * [Client](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/client.js)
 * [Index](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/final/public/index.html)
   
-### Process
+## Process
   
 * Easy RTC
   
@@ -74,7 +74,7 @@ In the image above, where both station can be seen and their components are indi
 * Pigpio: https://github.com/fivdi/pigpio  
 * Circuit: http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/ 
   
-### Difficulties
+## Difficulties
   
 * Finding right picture
 * URS circuit
