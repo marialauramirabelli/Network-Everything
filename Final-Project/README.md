@@ -9,7 +9,8 @@
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station1.jpg)
   
 *Station 2*  
-(In the monitor, the size of the text on the screen looks odd because of the monitor's dimensions; the style.css file for the page is the same in Station 2 and in Station 1 - see above -, but only the latter looks as it should)
+  
+(In the monitor, the size of the text on the screen looks odd because of the monitor's dimensions; the style.css file for the page is the same in Station 2 and in Station 1 - see above -, but only the latter looks as it should.)
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/station2.jpg)
   
@@ -17,13 +18,14 @@
   
 ## Schematics
   
-*Circuit*    
-The image below shows how to connect the ultrasonic range sensor to a RPi (4 GPIOs) with two resistors (1K and 2K Ohms).  
-(Taken from [codelectron.com](http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/))  
+*Circuit*  
+  
+The image below shows how to connect the ultrasonic range sensor to a RPi (4 GPIOs) with two resistors (1K and 2K Ohms). Taken from [codelectron.com](http://codelectron.com/measure-distance-ultrasonic-sensor-pi-hc-sr04/).   
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic.png)  
   
 *Schematic*  
+  
 The only change in the schematic for my own version of the circuit is the replacement of the 2K Ohms resistor for a 2.2K Ohms resistor (given I couldn't find any 2K ones). The ciruit appeared to work seamlessly despite the change.  
   
 ![img](https://github.com/marialauramirabelli/Network-Everything/blob/master/Final-Project/schematic1.jpg)  
